@@ -25,7 +25,7 @@ const Contact = () => {
   };
   const handleSubmit = async (event) => {
     event.preventDefault();
-    await fetch(`${import.meta.env.URL}/send`, {
+    await fetch(`https://backend-email-djyb.onrender.com/send`, {
       method: "POST",
       headers: {
         "Content-type": "application/json",
