@@ -25,7 +25,7 @@ const Contact = () => {
   };
   const handleSubmit = async (event) => {
     event.preventDefault();
-    await fetch("http://localhost:3001/send", {
+    await fetch(`${import.meta.env.URL}/send`, {
       method: "POST",
       headers: {
         "Content-type": "application/json",
