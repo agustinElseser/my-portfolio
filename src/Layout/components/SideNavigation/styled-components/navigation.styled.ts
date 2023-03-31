@@ -65,7 +65,7 @@ export const NavCV = styled.a`
   display: flex;
   width: 100%;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   padding: 5px 0px 5px 0px;
   border-bottom: 1px solid #282828;
   color: var(--color-font-secundary);

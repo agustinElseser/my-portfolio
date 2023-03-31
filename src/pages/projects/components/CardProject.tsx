@@ -10,7 +10,7 @@ const CardProject = () => {
         <Card
           onMouseOver={() => setIsHovered(1)}
           onMouseOut={() => setIsHovered(0)}
-          to="https://worlds-most-extraordinary-homes.onrender.com/"
+          to="https://github.com/agustinElseser/MWEH-Frontend"
           target="_blank"
         >
           <p>Projects [0]</p>
@@ -30,7 +30,12 @@ const CardProject = () => {
           )}
         </Card>
 
-        <Card onMouseOver={() => setIsHovered(2)} onMouseOut={() => setIsHovered(0)} to="" target="_blank">
+        <Card
+          onMouseOver={() => setIsHovered(2)}
+          onMouseOut={() => setIsHovered(0)}
+          to="https://github.com/agustinElseser/ser-Libre-frontend"
+          target="_blank"
+        >
           <p>Projects [1]</p>
 
           <ImgContainer>
@@ -48,7 +53,12 @@ const CardProject = () => {
           )}
         </Card>
 
-        <Card onMouseOver={() => setIsHovered(3)} onMouseOut={() => setIsHovered(0)} to="" target="_blank">
+        <Card
+          onMouseOver={() => setIsHovered(3)}
+          onMouseOut={() => setIsHovered(0)}
+          to="https://github.com/agustinElseser/my-portfolio"
+          target="_blank"
+        >
           <p>Projects [2]</p>
 
           <ImgContainer>
@@ -62,7 +72,12 @@ const CardProject = () => {
             ""
           )}
         </Card>
-        <Card onMouseOver={() => setIsHovered(4)} onMouseOut={() => setIsHovered(0)} to="" target="_blank">
+        <Card
+          onMouseOver={() => setIsHovered(4)}
+          onMouseOut={() => setIsHovered(0)}
+          to="https://github.com/agustinElseser/f1-info-backend"
+          target="_blank"
+        >
           <p>Projects [3]</p>
 
           <ImgContainer>
